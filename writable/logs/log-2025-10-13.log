@@ -1,0 +1,242 @@
+CRITICAL - 2025-10-13 16:23:54 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:24:17 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:24:17 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:24:32 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:34:19 --> Undefined array key "code"
+in APPPATH\Controllers\General_control.php on line 37.
+ 1 APPPATH\Controllers\General_control.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "code"', 'APPPATH\\Controllers\\General_control.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_affiliateRegister('123')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:34:44 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:40:53 --> Undefined array key "localhost"
+in APPPATH\Views\redirect.php on line 5.
+ 1 APPPATH\Views\redirect.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "localhost"', 'APPPATH\\Views\\redirect.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\redirect.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('redirect', [], true)
+ 5 APPPATH\Controllers\General_control.php(66): view('redirect', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_redirect('123')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:40:57 --> Undefined array key "localhost"
+in APPPATH\Views\redirect.php on line 5.
+ 1 APPPATH\Views\redirect.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "localhost"', 'APPPATH\\Views\\redirect.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\redirect.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('redirect', [], true)
+ 5 APPPATH\Controllers\General_control.php(66): view('redirect', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_redirect('123')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:40:57 --> Undefined array key "localhost"
+in APPPATH\Views\redirect.php on line 5.
+ 1 APPPATH\Views\redirect.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "localhost"', 'APPPATH\\Views\\redirect.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\redirect.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('redirect', [], true)
+ 5 APPPATH\Controllers\General_control.php(66): view('redirect', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_redirect('123')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:42:30 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:43:09 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:43:38 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:43:40 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:43:43 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:44:55 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:44:59 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:44:59 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:45:03 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:45:04 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:45:22 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 16:48:26 --> Undefined array key "code"
+in APPPATH\Controllers\General_control.php on line 37.
+ 1 APPPATH\Controllers\General_control.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "code"', 'APPPATH\\Controllers\\General_control.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_affiliateRegister('123')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:36:37 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 85.
+ 1 APPPATH\Views\index.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:36:48 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 85.
+ 1 APPPATH\Views\index.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:36:49 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 85.
+ 1 APPPATH\Views\index.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:37:51 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 100.
+ 1 APPPATH\Views\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:37:57 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 100.
+ 1 APPPATH\Views\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:39:58 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 100.
+ 1 APPPATH\Views\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:40:15 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 100.
+ 1 APPPATH\Views\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:40:15 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 100.
+ 1 APPPATH\Views\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-13 17:56:05 --> Undefined variable $affiliate
+in APPPATH\Views\index.php on line 100.
+ 1 APPPATH\Views\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $affiliate', 'APPPATH\\Views\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\General_control.php(81): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

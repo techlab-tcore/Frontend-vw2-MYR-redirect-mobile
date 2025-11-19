@@ -1,0 +1,114 @@
+CRITICAL - 2025-10-16 12:09:49 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:19:10 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:20:25 --> Undefined array key "code"
+in APPPATH\Controllers\General_control.php on line 37.
+ 1 APPPATH\Controllers\General_control.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "code"', 'APPPATH\\Controllers\\General_control.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_affiliateRegister('123')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:21:30 --> Undefined array key "code"
+in APPPATH\Controllers\General_control.php on line 37.
+ 1 APPPATH\Controllers\General_control.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "code"', 'APPPATH\\Controllers\\General_control.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_affiliateRegister('red')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:21:54 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:21:54 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:22:32 --> Undefined variable $loginId
+in APPPATH\Views\affiliate-register.php on line 140.
+ 1 APPPATH\Views\affiliate-register.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loginId', 'APPPATH\\Views\\affiliate-register.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\affiliate-register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('affiliate-register', [], true)
+ 5 APPPATH\Controllers\General_control.php(48): view('affiliate-register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_affiliateRegister('red')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:23:08 --> Undefined variable $loginId
+in APPPATH\Views\affiliate-register.php on line 140.
+ 1 APPPATH\Views\affiliate-register.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loginId', 'APPPATH\\Views\\affiliate-register.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\affiliate-register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('affiliate-register', [], true)
+ 5 APPPATH\Controllers\General_control.php(48): view('affiliate-register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index_affiliateRegister('red')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:30:34 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:32:00 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:32:04 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:32:05 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:32:09 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:33:24 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:35:23 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 16:38:34 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-16 17:50:25 --> Too few arguments to function App\Controllers\General_control::index(), 0 passed in C:\xampp\htdocs\Frontend-vw2-MYR-redirect\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\General_control.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\General_control->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\General_control))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

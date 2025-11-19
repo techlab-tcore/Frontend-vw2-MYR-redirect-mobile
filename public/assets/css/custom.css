@@ -1,0 +1,1584 @@
+@charset "UTF-8";
+
+/**
+Copyright 2022
+**/
+
+.offcanvas.offcanvas-start {
+    width: 85%;
+}
+
+.majorBox {
+    background-color: #FFF;
+}
+
+.btn-login {
+    color: #FFF;
+    width: 100%;
+    padding: .375rem 0;
+    letter-spacing: .1rem;
+    border: 1px solid #01DC66;
+    background: #01DC66;
+}
+
+.btn-register, .btn-register:hover {
+    color: #2C2D2E !important;
+    width: 100%;
+    padding: .375rem 0;
+    letter-spacing: .1rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #01DC66;
+    background: #ffffff;
+}
+
+.btn-restore {
+    /* color: #FFF; */
+    width: 100%;
+    padding: .6rem 0;
+    letter-spacing: .1rem;
+    border: 1px solid #01DC66;
+    background: #ffffff;
+}
+
+/**
+Desktop - TopNav
+**/
+
+.topNav a {
+    color: #2C2D2E !important;
+    padding: .5rem;
+}
+
+/**
+Desktop - Side MainNav
+**/
+
+.sideMainNav > a {
+    color: #2C2D2E;
+    font-weight: 600;
+    /* border: 2px solid #01DC66; */
+    padding: .3rem .5rem;
+    text-decoration: none;
+    background: #ffffff;
+}
+
+.sideMainNav > a:hover {
+    color: #FFF !important;
+    background-color: #01DC66;
+}
+
+.sideMainNav > a.active {
+    color: #FFF !important;
+    background-color: #01DC66;
+    border: 2px solid #01DC66;
+}
+
+/*
+Common
+*/
+
+.btn-hamburger {
+    color: #FFF;
+}
+
+.btn-hamburger:hover, .btn-hamburger:focus {
+    color: #FFF;
+    outline: none;
+    box-shadow: unset !important;
+}
+
+/*
+Footer
+*/
+
+.supportZone img {
+    width: 3rem;
+}
+
+.supportZone .cs24 {
+    width: 7rem;
+}
+
+.footer-link, .footer-link a {
+    color: #2C2D2E;
+    font-size: .8rem;
+    line-height: 8px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.footer-link a:hover {
+    color: #01DC66;
+}
+
+.footer-link-header {
+    color: #4d4d4d;
+    font-size: .8rem;
+}
+
+.footer-phase {
+    font-size: .7rem;
+}
+
+.footer-phase h4 {
+    font-size: .9rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.extra-wrapper {
+    padding: 1rem 0;
+    border-top: 1px dotted #E6E6E6;
+}
+
+.footer-paymethod > dd > i,
+.footer-browser > dd > i {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+.footer-paymethod > dd, .footer-browser > dd, .footer-responsible > dd, .footer-license > dd {
+    margin: 0;
+    /* text-align: center; */
+}
+
+.footer-paymethod > dd:first-child > i {
+    width: 70px !important;
+    height: 36px !important;
+    background: url('../../assets/img/paymethod/FPX.svg') no-repeat center center;
+    background-size: 128%;
+}
+
+.footer-paymethod > dd:nth-child(2) > i {
+    background: url('../../assets/img/paymethod/duitnow.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-paymethod > dd:nth-child(3) > i {
+    background: url('../../assets/img/paymethod/TNG.svg') no-repeat center center;
+    background-size: 150%;
+}
+
+.footer-paymethod > dd:nth-child(4) > i {
+    background: url('../../assets/img/paymethod/grab.svg') no-repeat center center;
+    background-size: 129%;
+}
+
+.footer-paymethod > dd:nth-child(5) > i {
+    background: url('../../assets/img/paymethod/boost.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-browser > dd:first-child > i {
+    background: url('../../assets/img/browser/edge.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-browser > dd:nth-child(2) > i {
+    background: url('../../assets/img/browser/chrome.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-browser > dd:last-child > i {
+    background: url('../../assets/img/browser/safari.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-responsible > dd:first-child > i {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background: url('../../assets/img/responsible/18.svg') no-repeat center center;
+    background-size: 166%;
+}
+
+.footer-responsible > dd:nth-child(2) > i {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background: url('../../assets/img/responsible/gamcare.svg') no-repeat center center;
+    background-size: 148%;
+}
+
+.footer-responsible > dd:last-child > i {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background: url('../../assets/img/responsible/BGA.svg') no-repeat center center;
+    background-size: 148%;
+}
+
+.footer-license > dd:first-child > i {
+    width: 70px;
+    height: 44px;
+    display: inline-block;
+    background: url('../../assets/img/license/bmm.svg') no-repeat center center;
+    background-size: 118%;
+}
+
+.footer-license > dd:nth-child(2) > i {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    background: url('../../assets/img/license/itechlab.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-license > dd:nth-child(3) > i {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    background: url('../../assets/img/license/GLI.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-license > dd:nth-child(4) > i {
+    width: 70px;
+    height: 44px;
+    display: inline-block;
+    background: url('../../assets/img/license/TST.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+.footer-license > dd:last-child > i {
+    width: 90px;
+    height: 44px;
+    display: inline-block;
+    background: url('../../assets/img/license/godaddy.svg') no-repeat center center;
+    background-size: 100%;
+}
+
+/*
+Promotion
+*/
+
+.promo-text {
+    color: #FFF;
+    background-color: #000;
+    padding: 0 1rem;
+}
+
+.promo-footer {
+    display: block;
+    color: #a2aabd;
+    font-weight: 300;
+    padding: .3rem .5rem;
+    background-color: #000;
+}
+
+/*
+Registration
+*/
+
+.wrap-registration::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    /*background: url('../../assets/img/bg_regis.png') no-repeat center center;*/
+    background: #ffffff;
+    background-size: cover;
+}
+
+/*
+Mobile
+*/
+
+/*
+Home
+*/
+
+.clientZone {
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.clientZone dl > dd:nth-child(2) a {
+    width: 33%;
+    display: inline-block;
+    text-decoration: none;
+    background: url('../../assets/img/buttons/en/deposit.png') no-repeat center center transparent;
+    background-size: contain;
+    margin: 0 .2rem;
+}
+
+.clientZone dl > dd:nth-child(2) a.btn-withdrawal {
+    background: url('../../assets/img/buttons/en/withdrawal.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone dl > dd:nth-child(2) a.btn-history {
+    background: url('../../assets/img/buttons/en/history.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone dl > dd:nth-child(2) a.btn-fortunewheel {
+    background: url('../../assets/img/buttons/en/fortune_wheel.gif') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone dl > dd:nth-child(2) a.btn-lossrebate {
+    background: url('../../assets/img/buttons/en/lossrebate.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone dl > dd:nth-child(2) a.btn-affshare {
+    background: url('../../assets/img/buttons/en/qr.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.my dl > dd:nth-child(2) a {
+    background: url('../../assets/img/buttons/my/deposit.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.my dl > dd:nth-child(2) a.btn-withdrawal {
+    background: url('../../assets/img/buttons/my/withdrawal.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.my dl > dd:nth-child(2) a.btn-history {
+    background: url('../../assets/img/buttons/my/history.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.my dl > dd:nth-child(2) a.btn-fortunewheel {
+    background: url('../../assets/img/buttons/my/fortune_wheel.gif') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.my dl > dd:nth-child(2) a.btn-lossrebate {
+    background: url('../../assets/img/buttons/my/lossrebate.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.my dl > dd:nth-child(2) a.btn-affshare {
+    background: url('../../assets/img/buttons/my/qr.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.cn dl > dd:nth-child(2) a {
+    background: url('../../assets/img/buttons/cn/deposit.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.cn dl > dd:nth-child(2) a.btn-withdrawal {
+    background: url('../../assets/img/buttons/cn/withdrawal.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.cn dl > dd:nth-child(2) a.btn-history {
+    background: url('../../assets/img/buttons/cn/history.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.cn dl > dd:nth-child(2) a.btn-fortunewheel {
+    background: url('../../assets/img/buttons/cn/fortune_wheel.gif') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.cn dl > dd:nth-child(2) a.btn-lossrebate {
+    background: url('../../assets/img/buttons/cn/lossrebate.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.cn dl > dd:nth-child(2) a.btn-affshare {
+    background: url('../../assets/img/buttons/cn/qr.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+/*TH*/
+.clientZone.th dl > dd:nth-child(2) a {
+    background: url('../../assets/img/buttons/th/deposit.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.th dl > dd:nth-child(2) a.btn-withdrawal {
+    background: url('../../assets/img/buttons/th/withdrawal.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.th dl > dd:nth-child(2) a.btn-history {
+    background: url('../../assets/img/buttons/th/history.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.th dl > dd:nth-child(2) a.btn-fortunewheel {
+    background: url('../../assets/img/buttons/th/fortune_wheel.gif') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.th dl > dd:nth-child(2) a.btn-lossrebate {
+    background: url('../../assets/img/buttons/th/lossrebate.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.th dl > dd:nth-child(2) a.btn-affshare {
+    background: url('../../assets/img/buttons/th/qr.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+/*VN*/
+.clientZone.vn dl > dd:nth-child(2) a {
+    background: url('../../assets/img/buttons/vn/deposit.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.vn dl > dd:nth-child(2) a.btn-withdrawal {
+    background: url('../../assets/img/buttons/vn/withdrawal.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.vn dl > dd:nth-child(2) a.btn-history {
+    background: url('../../assets/img/buttons/vn/history.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.vn dl > dd:nth-child(2) a.btn-fortunewheel {
+    background: url('../../assets/img/buttons/vn/fortune_wheel.gif') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.vn dl > dd:nth-child(2) a.btn-lossrebate {
+    background: url('../../assets/img/buttons/vn/lossrebate.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone.vn dl > dd:nth-child(2) a.btn-affshare {
+    background: url('../../assets/img/buttons/vn/qr.png') no-repeat center center transparent;
+    background-size: contain;
+}
+
+.clientZone dl > dd:nth-child(2) a.btn-fortunewheel .userFortuneToken {
+    font-size: .6rem;
+}
+
+/*
+Game Menu
+*/
+
+/**
+Desktop - Game MainNav
+**/
+
+.home-navBox {
+    overflow-x: scroll !important;
+    -webkit-overflow-scrolling: auto;
+}
+
+.game-menu {
+    height: 5rem;
+    text-shadow: none;
+    width: -webkit-calc(20% * 5);
+    width: calc(20% * 5);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.game-menu a {
+    text-align: center;
+    /* max-width: 64px; */
+    padding: 0 .5rem;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    transition: all .3s ease-in-out;;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    color: #01DC66;
+    background: #FFF;
+    border: 1px solid #01DC66;
+}
+
+.game-menu a.active {
+    /* background: #4D4D4D !important; */
+    /* box-shadow: inset 0 0 2rem 0.1rem rgba(0,0,0,.8); */
+    background: #01DC66;
+}
+
+.promo-menu {
+    text-shadow: none;
+    width: -webkit-calc(20% * 5);
+    width: calc(20% * 5);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.promo-menu a {
+    text-align: center;
+    padding: .5rem 1rem;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    transition: all .3s ease-in-out;;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    background-color: #E3E3E3;
+}
+
+.promo-menu a.active {
+    color: #2C2D2E !important;
+    background: #01DC66;
+}
+
+.game-menu a > i {
+    display: inline-block;
+    max-width: 64px;
+    width: 100%;
+    height: 100%;
+}
+
+/* EN */
+.game-menu.en a[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/en/promos.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/en/promos_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/en/news.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/en/news_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/en/star.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/en/star_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/en/hot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/en/hot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/en/slot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/en/slot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/en/casino.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/en/casino_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/en/sport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/en/sport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/en/esport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/en/esport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/en/keno.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/en/keno_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/en/lottery.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/en/lottery_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/en/racing.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/en/racing_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/en/other.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/en/other_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/en/app.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.en a.active[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/en/app_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+/* MY */
+.game-menu.my a[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/my/promos.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/my/promos_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/my/news.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/my/news_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/my/star.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/my/star_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/my/hot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/my/hot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/my/slot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/my/slot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/my/casino.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/my/casino_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/my/sport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/my/sport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/my/esport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/my/esport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/my/keno.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/my/keno_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/my/lottery.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/my/lottery_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/my/racing.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/my/racing_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/my/other.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/my/other_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/my/app.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.my a.active[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/my/app_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+/* CN */
+.game-menu.cn a[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/cn/promos.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/cn/promos_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/cn/news.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/cn/news_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/cn/star.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/cn/star_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/cn/hot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/cn/hot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/cn/slot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/cn/slot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/cn/casino.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/cn/casino_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/cn/sport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/cn/sport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/cn/esport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/cn/esport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/cn/keno.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/cn/keno_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/cn/lottery.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/cn/lottery_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/cn/racing.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/cn/racing_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/cn/other.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/cn/other_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/cn/app.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.cn a.active[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/cn/app_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+/* TH */
+.game-menu.th a[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/th/promos.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/th/promos_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/th/news.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/th/news_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/th/star.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/th/star_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/th/hot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/th/hot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/th/slot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/th/slot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/th/casino.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/th/casino_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/th/sport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/th/sport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/th/esport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/th/esport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/th/keno.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/th/keno_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/th/lottery.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/th/lottery_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/th/racing.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/th/racing_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/th/other.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/th/other_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/th/app.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.th a.active[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/th/app_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+/* VN */
+.game-menu.vn a[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/vn/promos.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#promotion"] > i {
+    background: url('../../assets/img/buttons/vn/promos_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/vn/news.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#news"] > i {
+    background: url('../../assets/img/buttons/vn/news_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/vn/star.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#exclusive"] > i {
+    background: url('../../assets/img/buttons/vn/star_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/vn/hot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#hot"] > i {
+    background: url('../../assets/img/buttons/vn/hot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/vn/slot.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#slot"] > i {
+    background: url('../../assets/img/buttons/vn/slot_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/vn/casino.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#casino"] > i {
+    background: url('../../assets/img/buttons/vn/casino_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/vn/sport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#sport"] > i {
+    background: url('../../assets/img/buttons/vn/sport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/vn/esport.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#esport"] > i {
+    background: url('../../assets/img/buttons/vn/esport_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/vn/keno.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#keno"] > i {
+    background: url('../../assets/img/buttons/vn/keno_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/vn/lottery.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#lottery"] > i {
+    background: url('../../assets/img/buttons/vn/lottery_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/vn/racing.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#racing"] > i {
+    background: url('../../assets/img/buttons/vn/racing_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/vn/other.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#other"] > i {
+    background: url('../../assets/img/buttons/vn/other_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/vn/app.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+.game-menu.vn a.active[data-bs-target="#appgame"] > i {
+    background: url('../../assets/img/buttons/vn/app_h.png') no-repeat center center transparent;
+    background-size: 100%;
+}
+
+/*
+Promotion
+*/
+
+/* .promo-menu {
+    background-color: #E3E3E3;
+}
+
+#grid-promotion .date-range {
+    line-height: 12px;
+} */
+
+/*
+Footer
+*/
+
+.mobile-footer {
+    background-color: #FFF;
+    padding: .5rem 0;
+    margin: .5rem .5rem;
+    box-shadow: 0 0 2rem rgb(77 77 77 / 80%);
+    border-radius: 1rem;
+}
+
+.mobile-footer ul > li > a {
+    font-size: .6rem;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.mobile-footer ul > li > a > i,
+.mobile-footer ul > li:nth-child(5) > .dropup > a > i {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: url('../../assets/img/en/home.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/en/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li[data-page="promotion"] > a > i {
+    background: url('../../assets/img/en/promo.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li[data-page="promotion"] > a.active > i {
+    background: url('../../assets/img/en/promo_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li[data-page="deposit"] > a > i {
+    height: 80px !important;
+    background: url('../../assets/img/en/deposit.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li[data-page="account"] > a > i {
+    background: url('../../assets/img/en/account.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li[data-page="account"] > a.active > i {
+    background: url('../../assets/img/en/account_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li:nth-child(5) > .dropup > a > i {
+    background: url('../../assets/img/en/support.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.en ul > li:nth-child(5) > .dropup > a.dropdown-toggle.show > i {
+    background: url('../../assets/img/en/support_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li[data-page="home"] > a > i {
+    background: url('../../assets/img/my/home.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/my/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li[data-page="promotion"] > a > i {
+    background: url('../../assets/img/my/promo.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li[data-page="promotion"] > a.active > i {
+    background: url('../../assets/img/my/promo_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li[data-page="deposit"] > a > i {
+    height: 80px !important;
+    background: url('../../assets/img/my/deposit.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li[data-page="account"] > a > i {
+    background: url('../../assets/img/my/account.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li[data-page="account"] > a.active > i {
+    background: url('../../assets/img/my/account_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li:nth-child(5) > .dropup > a > i {
+    background: url('../../assets/img/my/support.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.my ul > li:nth-child(5) > .dropup > a.dropdown-toggle.show > i {
+    background: url('../../assets/img/my/support_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="home"] > a > i {
+    background: url('../../assets/img/cn/home.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/cn/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/cn/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="promotion"] > a > i {
+    background: url('../../assets/img/cn/promo.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="promotion"] > a.active > i {
+    background: url('../../assets/img/cn/promo_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="deposit"] > a > i {
+    height: 80px !important;
+    background: url('../../assets/img/cn/deposit.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="account"] > a > i {
+    background: url('../../assets/img/cn/account.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li[data-page="account"] > a.active > i {
+    background: url('../../assets/img/cn/account_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li:nth-child(5) > .dropup > a > i {
+    background: url('../../assets/img/cn/support.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.cn ul > li:nth-child(5) > .dropup > a.dropdown-toggle.show > i {
+    background: url('../../assets/img/cn/support_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+/*TH*/
+.mobile-footer.th ul > li[data-page="home"] > a > i {
+    background: url('../../assets/img/th/home.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/th/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/th/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li[data-page="promotion"] > a > i {
+    background: url('../../assets/img/th/promo.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li[data-page="promotion"] > a.active > i {
+    background: url('../../assets/img/th/promo_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li[data-page="deposit"] > a > i {
+    height: 80px !important;
+    background: url('../../assets/img/th/deposit.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li[data-page="account"] > a > i {
+    background: url('../../assets/img/th/account.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li[data-page="account"] > a.active > i {
+    background: url('../../assets/img/th/account_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li:nth-child(5) > .dropup > a > i {
+    background: url('../../assets/img/th/support.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.th ul > li:nth-child(5) > .dropup > a.dropdown-toggle.show > i {
+    background: url('../../assets/img/th/support_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+/*VN*/
+.mobile-footer.vn ul > li[data-page="home"] > a > i {
+    background: url('../../assets/img/vn/home.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/vn/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li[data-page="home"] > a.active > i {
+    background: url('../../assets/img/vn/home_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li[data-page="promotion"] > a > i {
+    background: url('../../assets/img/vn/promo.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li[data-page="promotion"] > a.active > i {
+    background: url('../../assets/img/vn/promo_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li[data-page="deposit"] > a > i {
+    height: 80px !important;
+    background: url('../../assets/img/vn/deposit.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li[data-page="account"] > a > i {
+    background: url('../../assets/img/vn/account.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li[data-page="account"] > a.active > i {
+    background: url('../../assets/img/vn/account_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li:nth-child(5) > .dropup > a > i {
+    background: url('../../assets/img/vn/support.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer.vn ul > li:nth-child(5) > .dropup > a.dropdown-toggle.show > i {
+    background: url('../../assets/img/vn/support_h.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.mobile-footer ul > li[data-page="deposit"] > a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.mobile-footer ul > li .dropup a {
+    font-size: 1rem;
+    color: #01DC66;
+}
+
+.mobile-footer ul > li .dropup .dropdown-menu {
+    border-width: 0px;
+    background-color: #FFF;
+}
+
+/*
+Register
+*/
+
+.regi-mobile-code {
+    font-size: 0.8rem;
+    max-width: 30%;
+    background-color: #def3ff;
+}
+
+/* 
+Game Rules
+*/
+
+.gamerules-content .swal2-content {
+    padding: 0;
+    height: 400px;
+    background-color: #ebf8ff;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: auto;
+}
+
+.lobby-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* space between buttons */
+}
+
+.btn-lobby{
+    height: 60px;
+    background: #FFF;
+    box-shadow: 0px 3px 6px #00000080;
+    border-radius: 10px;
+    opacity: 1;
+    color:#00615E;
+}
+
+.btn-lobby img{
+    height:25px;
+    width:25px !important;
+}
+
+.bgdld{
+    color: #fff !important;
+    background: transparent linear-gradient(180deg, #52E6CB 0%, #00615E 100%) 0% 0% no-repeat padding-box !important; 
+}
+
+.cpyright{
+    font-size: .7rem;
+    color: #01DC66;
+}
+
+.primary_bg{
+    background: linear-gradient(180deg, #52E6CB, #00615E) !important;
+    border: 0;
+}
