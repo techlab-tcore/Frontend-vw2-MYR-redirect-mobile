@@ -228,7 +228,7 @@ class User_control extends BaseController
                     endif;
                 endif;
             else:
-                unset($_SESSION['taccode']);
+                //unset($_SESSION['taccode']);
                 echo json_encode(['code'=>-1, 'message'=>lang('Validation.smstac')]);
             endif;
         //endif;
@@ -277,7 +277,7 @@ class User_control extends BaseController
                     echo json_encode($res);
                 endif;
             else:
-                unset($_SESSION['taccode']);
+                //unset($_SESSION['taccode']);
                 echo json_encode(['code'=>-1, 'message'=>lang('Validation.smstac')]);
             endif;
         //endif;
