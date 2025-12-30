@@ -51,4 +51,5 @@ return [
     'gatchannel' => 'Channel',
     'gatduitnow' => 'DuitNow QR',
     'gatewallet' => 'E-Wallet',
+    'tacoption' => 'Kaedah Penerimaan TAC',
 ];

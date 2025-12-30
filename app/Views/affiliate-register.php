@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 </script>
 
 <!--block inspect-->
-<!--<script disable-devtool-auto src='<?=base_url('assets/vendors/block_inspect/block.js');?>' url='<?=$_ENV['download'];?>'></script>
+<script disable-devtool-auto src='<?=base_url('assets/vendors/block_inspect/block.js');?>' url='<?=$_ENV['download'];?>'></script>
 <script>
 document.onkeydown = function(e) {
     if(event.keyCode == 123) {
@@ -97,7 +97,7 @@ document.onkeydown = function(e) {
         return false;
     }
 }
-</script>-->
+</script>
 <!--end block inspect-->
 
 <div class="outer-container home-page h-100" id="pMain">
@@ -145,6 +145,23 @@ document.onkeydown = function(e) {
                         <input type="hidden" name="regionCode" id="regionCodeInput" value="MYR"> -->
 
                         <input type="text" pattern="^[0-9]{8,11}$" class="form-control fs-6" id="regisUsername" name="mobile" placeholder="<?=lang('Input.mobileno');?>" required>
+                    </div>
+
+                    <label class="TACOptionLabel"><?=lang('Input.tacoption');?></label>
+                    <div class="dropdown mb-3">
+                        <button class="TACbtn btn btn-outline-secondary dropdown-toggle w-100 text-start d-flex align-items-center gap-2"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            id="otpMethodBtn">
+                            <?=lang('Input.tacoption');?>
+                        </button>
+                        <small class="w-100 form-text"><?=lang('Validation.tacoption');?></small>
+
+                        <ul class="dropdown-menu TAC w-100">
+                            <li><a class="dropdown-item otp-select" data-method="sms">SMS (Telco)</a></li>
+                            <li><a class="dropdown-item otp-select" data-method="whatsapp">WhatsApp</a></li>
+                        </ul>
                     </div>
 
                     <label><?=lang('Input.smstac');?></label>
@@ -289,26 +306,43 @@ async function supportList()
 
 
 // SMS Tac
+// SMS Tac
 function requestAffTac()
 {
-    const contact = $('.affRegisForm [name=mobile]').val();
-    const regioncode = $('.affRegisForm [name=regionCode]').val();
+    method = $('#otpMethodBtn').text().trim();
+    contact = $('.affRegisForm [name=mobile]').val();
+    regioncode = $('.affRegisForm [name=regionCode]').val();
 
-    if( contact=='' ) {
-        swal.fire("Error!", "<?=lang('Validation.mobile');?>", "warning");
-        return false;
-    } else {
-        $('.affRegisForm [name=mobile').prop('readonly', true);
-        var pass = Math.floor(100000 + Math.random() * 900000);
+    if( contact!=='' && method==="WhatsApp" ) {
 
-        //Disable Get Tac Button
+        //disable get tac option and allow readonly
+        const otpMethodBtn = document.getElementById('otpMethodBtn');
+        otpMethodBtn.disabled = true;
+        $('.affRegisForm [name=mobile]').prop('readonly', true);
+
+        //disable get tac button
         $('.btn-tac').prop('disabled', true);
 
-        // if (regioncode == 'MYR') {
-            sms(contact,pass,regioncode);
-        // } else {
-            // whatsappTAC(contact,pass, regioncode);
-        // }
+        //send whatsapp
+        whatsappTAC2(contact,regioncode);
+        
+    } else if( contact!=='' && method==="SMS (Telco)" ) {
+        var pass = Math.floor(100000 + Math.random() * 900000);
+
+        //disable get tac option and allow readonly
+        const otpMethodBtn = document.getElementById('otpMethodBtn');
+        otpMethodBtn.disabled = true;
+        $('.affRegisForm [name=mobile]').prop('readonly', true);
+        
+        //disable get tac button
+        $('.btn-tac').prop('disabled', true);
+
+        //send sms
+        sms(contact,pass,regioncode);
+
+    } else{
+        swal.fire("Error!", "<?=lang('Validation.cmobile');?>", "warning");
+        return false;
     }
 }
 
@@ -355,6 +389,30 @@ function whatsappTAC(contact,pass,mobilecode)
     }, function(data, status) {
         const obj = JSON.parse(data);
         if( obj.code==1 ) {
+            swal.close();
+            timer();
+        } else if( obj.code==39 ) {
+            forceUserLogout();
+        } else {
+            swal.fire("Error!", obj.message + " (Code: "+obj.code+")", "error");
+            $('.btn-tac').prop('disabled', false);
+            $('.affRegisForm [name=mobile').prop('readonly', false);
+        }
+    });
+}
+
+function whatsappTAC2(contact,mobilecode)
+{
+
+    var params = {};
+    params['contact'] = contact;
+    params['regioncode'] = mobilecode;
+
+    $.post('/whatsapp/send-tac-mass', {
+        params
+    }, function(data, status) {
+        const obj = JSON.parse(data);
+        if( obj.code==0 ) {
             swal.close();
             timer();
         } else if( obj.code==39 ) {

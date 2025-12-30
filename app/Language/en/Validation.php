@@ -6,6 +6,8 @@ return [
     'donthaveaccount' => 'Do not have an account yet?',
     'encounter' => 'If you encounter any issues while logging in, please contact our Customer Service for further assistance',
     'username' => 'Username must begin with a letter and contain a length of from 6 to 15, consists of letters and digits.',
+    'cmobile' => 'Please enter a valid mobile number.',
+    'tacoption' => 'Please select your preferred TAC delivery method.',
     'password' => 'Password with minimum 6 letters and digits. Special character is allow.',
     '2ndpassword' => 'Secondary Password with minimum 5 letters and digits. Special character is not allow.',
     'new2ndpass' => 'New Secondary Password with minimum 5 letters and digits. Special character is not allow.',

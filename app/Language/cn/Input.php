@@ -51,4 +51,5 @@ return [
     'gatchannel' => '充值通道',
     'gatduitnow' => 'DuitNow QR',
     'gatewallet' => '电子钱包',
+    'tacoption' => '接受验证码渠道',
 ];

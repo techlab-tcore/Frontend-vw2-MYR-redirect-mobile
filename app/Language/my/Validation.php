@@ -6,6 +6,8 @@ return [
     'donthaveaccount' => 'Belum mempunyai akaun?',
     'encounter' => 'Jika anda menghadapi sebarang masalah semasa log masuk, sila hubungi Khidmat Pelanggan kami untuk mendapatkan bantuan lanjut',
     'username' => 'Nama pengguna mesti bermula dengan huruf dan mengandungi panjang dari 6 hingga 15, terdiri daripada huruf dan digit.',
+    'cmobile' => 'Sila masukkan nombor telefon bimbit yang sah.',
+    'tacoption' => 'Sila pilih kaedah penghantaran TAC.',
     'password' => 'Kata laluan dengan minimum 6 huruf dan digit. Watak istimewa tidak dibenarkan.',
     '2ndpassword' => 'Kata Laluan Kedua dengan minimum 6 huruf dan digit. Watak istimewa tidak dibenarkan.',
     'new2ndpass' => 'Kata Laluan Kedua Baru dengan minimum 6 huruf dan digit. Watak istimewa tidak dibenarkan.',

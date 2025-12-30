@@ -6,6 +6,8 @@ return [
     'donthaveaccount' => 'Bạn chưa có tài khoản?',
     'encounter' => 'Nếu bạn gặp bất kỳ sự cố nào khi đăng nhập, vui lòng liên hệ với Dịch vụ khách hàng của chúng tôi để được hỗ trợ thêm',
     'username' => 'Tên người dùng phải bắt đầu bằng một chữ cái và có độ dài từ 6 đến 15, bao gồm chữ cái và chữ số.',
+    'mobile' => 'Vui lòng nhập số điện thoại di động hợp lệ.',
+    'tacoption' => 'Vui lòng chọn phương thức gửi TAC mà bạn ưa thích.',
     'password' => 'Mật khẩu có tối thiểu 6 chữ cái và chữ số. Ký tự đặc biệt được phép.',
     '2ndpassword' => 'Mật khẩu phụ có tối thiểu 5 chữ cái và chữ số. Ký tự đặc biệt không được phép.',
     'new2ndpass' => 'Mật khẩu phụ mới có tối thiểu 5 chữ cái và chữ số. Ký tự đặc biệt không được phép.',
