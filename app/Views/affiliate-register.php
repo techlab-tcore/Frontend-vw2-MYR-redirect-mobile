@@ -260,6 +260,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     getLiveChat();
+
+    document.querySelectorAll(".otp-select").forEach(item => {
+        item.addEventListener("click", function () {
+            $('.btn-tac').prop('disabled', false);
+            const method = this.getAttribute("data-method");
+            document.getElementById("otpMethodBtn").innerHTML =
+                `${this.innerText}`;
+
+        });
+    });
 });
 
 // Support
