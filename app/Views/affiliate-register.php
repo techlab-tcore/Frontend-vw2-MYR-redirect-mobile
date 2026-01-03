@@ -199,6 +199,10 @@ document.onkeydown = function(e) {
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
+
+    const tacButton = document.getElementById("timer");
+    tacButton.disabled = true;
+
     $('.affRegisForm').on('submit', function(e) {
         e.preventDefault();
 
